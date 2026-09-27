@@ -1,1 +1,236 @@
 
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Bizdə Belədir</title>
+<meta name="description" content="Bizdə Belədir — gündəlik həyatdan tanış, gülməli və əyləncəli videolar.">
+
+<style>
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#09090b;
+  color:#fff;
+  min-height:100vh;
+}
+
+.hero{
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:30px 20px;
+  text-align:center;
+  background:
+    radial-gradient(circle at 50% 20%,#292929 0%,#111 40%,#09090b 75%);
+}
+
+.container{
+  width:100%;
+  max-width:650px;
+}
+
+.badge{
+  display:inline-block;
+  padding:8px 15px;
+  border:1px solid #333;
+  border-radius:100px;
+  font-size:13px;
+  color:#bbb;
+  margin-bottom:25px;
+}
+
+h1{
+  font-size:clamp(42px,12vw,78px);
+  line-height:.95;
+  font-weight:900;
+  letter-spacing:-3px;
+  margin-bottom:20px;
+}
+
+h1 span{
+  display:block;
+  background:linear-gradient(90deg,#fff,#999);
+  -webkit-background-clip:text;
+  -webkit-text-fill-color:transparent;
+}
+
+.subtitle{
+  color:#aaa;
+  font-size:17px;
+  line-height:1.6;
+  max-width:500px;
+  margin:0 auto 32px;
+}
+
+.socials{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.social{
+  text-decoration:none;
+  color:white;
+  padding:17px 20px;
+  border-radius:16px;
+  font-weight:700;
+  font-size:17px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  transition:.2s;
+}
+
+.social:active{
+  transform:scale(.97);
+}
+
+.youtube{
+  background:#ff0033;
+}
+
+.instagram{
+  background:linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
+}
+
+.tiktok{
+  background:#18181b;
+  border:1px solid #333;
+}
+
+.arrow{
+  font-size:22px;
+}
+
+.about{
+  padding:70px 22px;
+  background:#111;
+}
+
+.about-inner{
+  max-width:650px;
+  margin:auto;
+}
+
+.about h2{
+  font-size:32px;
+  margin-bottom:16px;
+}
+
+.about p{
+  color:#aaa;
+  line-height:1.7;
+  font-size:16px;
+}
+
+.question{
+  margin-top:35px;
+  padding:25px;
+  border:1px solid #292929;
+  border-radius:20px;
+  background:#151515;
+  font-size:21px;
+  font-weight:800;
+}
+
+footer{
+  text-align:center;
+  padding:35px 20px;
+  color:#666;
+  background:#09090b;
+  font-size:13px;
+}
+
+@media(min-width:600px){
+  .socials{
+    flex-direction:row;
+  }
+
+  .social{
+    flex:1;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+  <div class="container">
+
+    <div class="badge">🇦🇿 GÜNDƏLİK HƏYAT • MİZAH • VİDEO</div>
+
+    <h1>
+      BİZDƏ
+      <span>BELƏDİR</span>
+    </h1>
+
+    <p class="subtitle">
+      Hər gün başımıza gələn tanış vəziyyətlər,
+      qısa videolar və bir az da gülüş.
+      Baxıb “bu eynən məndə də olur” deyəcəksən.
+    </p>
+
+    <div class="socials">
+
+      <a class="social youtube"
+         href="https://youtube.com/@bizde.beledir?si=G3l2_xXgRBlblG6c"
+         target="_blank">
+        YouTube
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="social instagram"
+         href="https://www.instagram.com/bizde.beledir?stkn=MWs0YWlsOWhpcDE4eA=="
+         target="_blank">
+        Instagram
+        <span class="arrow">→</span>
+      </a>
+
+      <a class="social tiktok"
+         href="https://www.tiktok.com/@bizde.beledir?_r=1&_t=ZS-9A4xRlrkP5u"
+         target="_blank">
+        TikTok
+        <span class="arrow">→</span>
+      </a>
+
+    </div>
+
+  </div>
+</section>
+
+<section class="about">
+  <div class="about-inner">
+
+    <h2>Bizdə niyə belədir? 😄</h2>
+
+    <p>
+      Marketə bir şey almağa girib səbəti doldurmaq,
+      avtobusa çatmaq üçün qaçıb nömrəsinin başqa olduğunu görmək,
+      “5 dəqiqə telefona baxım” deyib vaxtı unutmaq...
+      Bizdə Belədir gündəlik həyatda hamımıza tanış olan
+      anları qısa və əyləncəli videolara çevirir.
+    </p>
+
+    <div class="question">
+      Səndə də belədir? 👀
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 BİZDƏ BELƏDİR
+</footer>
+
+</body>
+</html>
